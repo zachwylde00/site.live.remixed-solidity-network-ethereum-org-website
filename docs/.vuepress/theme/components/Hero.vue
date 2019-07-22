@@ -1,6 +1,9 @@
 <template>
   <div class="hero relative content-block">
-      <img alt="Ethereum.org Hero Image" class="hide-dark" width="946" height="auto" src="../images/hero.gif" />
+      <video width="400" class="hide-dark" style="margin-left: 12rem; margin-top: 3rem;"playsinline autoplay muted loop >
+        <source src="../images/herolight.mp4" type="video/mp4">
+            Sorry, your browser is too lazy to support this file.     
+      </video>
       <img alt="Ethereum.org Hero Image - Dark" class="show-dark" width="946" height="auto" src="../images/hero-dark.gif" />
 
     <div class="hero-block beginners sm-hide">
@@ -24,6 +27,7 @@
     </div>
   </div>
 </template>
+
 
 <style lang="stylus" scoped>
   @require '../styles/config'
