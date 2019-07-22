@@ -1,10 +1,10 @@
 <template>
   <div class="hero relative content-block">
       <video width="400" class="hide-dark" style="margin-left: 12rem; margin-top: 3rem;"playsinline autoplay muted loop >
-        <source src="../images/herolight.mp4" type="video/mp4">
+        <source src="../images/ethwhite.mp4" type="video/mp4">
             Sorry, your browser is too lazy to support this file.     
       </video>
-      <img alt="Ethereum.org Hero Image - Dark" class="show-dark" width="946" height="auto" src="../images/hero-dark.gif" />
+      <img alt="Ethereum.org Hero Image - Dark" class="show-dark" width="946" height="auto" src="" />
 
     <div class="hero-block beginners sm-hide">
       <router-link class="block header" to="/beginners/">→ Beginners</router-link>
