@@ -83,6 +83,18 @@ module.exports = {
         { text: translate('page-developers'), link: '/developers/' }
       ]
     },
+    '/es/': {
+      lang: 'es-ES',
+      label: translate('language', 'es-ES'),
+      title: translate('ethereum', 'es-ES'),
+      nav: [
+        { text: translate('page-home', 'es-ES'), link: '/es/' },
+        { text: translate('page-beginners', 'es-ES'), link: '/es/beginners/' },
+        { text: translate('page-use', 'es-ES'), link: '/es/use/' },
+        { text: translate('page-learn', 'es-ES'), link: '/es/learn/' },
+        { text: translate('page-developers', 'es-ES'), link: '/es/developers/' }
+      ]
+    },
     '/fr/': {
       lang: 'fr-FR',
       label: translate('language', 'fr-FR'),
